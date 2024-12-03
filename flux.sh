@@ -18,8 +18,7 @@ PIP_PACKAGES=(
     #"package-2"
 )
 
-NODES=(
-    
+NODES=( 
 )
 
 CHECKPOINT_MODELS=(
@@ -34,9 +33,11 @@ UNET_MODELS=(
 )
 
 VAE_MODELS=(
+https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors
 )
 
 LORA_MODELS=(
+https://huggingface.co/pazwalker/satmar_lora/resolve/main/Satmar.safetensors
 )
 
 ESRGAN_MODELS=(
